@@ -15,5 +15,10 @@ namespace GarysWholesaleGarage
         {
             Console.WriteLine($"The {MainColor} Ram drives uncontrolably on the sidewalk. VROOM");
         }
+
+        public override void Stop()
+        {
+            Console.WriteLine("THIS TRUCK AIN'T GOT NO BRAKES");
+        }
     }
 }
