@@ -11,5 +11,10 @@ namespace GarysWholesaleGarage
             //! method definition omitted
             Console.WriteLine($"Your Tesla is charged to {this.BatteryKWh}KWh");
         }
+
+        public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Tesla judgingly rolls past you.......");
+        }
     }
 }

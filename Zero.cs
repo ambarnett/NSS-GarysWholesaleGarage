@@ -10,5 +10,10 @@ namespace GarysWholesaleGarage
         {
             //! method definition omitted
         }
+
+        public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Zero zips by you. Zoooooooom!");
+        }
     }
 }
