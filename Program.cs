@@ -12,9 +12,20 @@ namespace GarysWholesaleGarage
             Ram r1500 = new Ram {MainColor = "Brown"};
 
             fxs.Drive();
+            fxs.Turn("right");
+            fxs.Stop();
+
             modelS.Drive();
+            modelS.Turn("left and judges you the entire time.");
+            modelS.Stop();
+
             mx410.Drive();
+            mx410.Turn("port");
+            mx410.Stop();
+
             r1500.Drive();
+            r1500.Stop();
+            r1500.Turn("left");
         }
     }
 }
